@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: cabin, helvetica, arial, sans-serif;
+}
+html, body{
+    background-color: #64BCFF;
+}
+h1{
+    font-size: 6.854rem;
+    font-family: 'old standard tt', 'Palatino Linotype', 'Book Antiqua', Palatino, serif; 
+    padding: 1rem 2rem;
+}
+h2{
+    font-size: 4.23rem;
+    font-family: 'old standard tt', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    padding: 1rem 2rem;
+}
+nav li{
+    font-size: 2.618rem;
+}
+p{
+    font-size: 1.618rem;
+    padding: 1rem 2rem;
+}
+.wrapper{
+    max-width: 1400px; 
+    width: 80%;
+    margin: 0 auto;
+    background-color: #8EB1CC;
+    color: #586F7F;
+}
+header{
+    border-bottom: 0.8rem solid #0D4E7F;
+    background-color: #64BCFF;
+    color: #0D4E7F;
+}
+.menu-h{
+	display: inline;
+    width: 100%;
+}
+    .menu-h li{
+		display: inline;
+		width: 100%;
+    }
+        .menu-h a,
+        .menu-h a:link,
+        .menu-h a:visited{
+            /* style the anchors to fill the entire width of the li 
+            make sure there is padding around your text */
+			padding-right: 11%;
+			display: inline;
+			width: auto;
+			text-align: center;
+        }
+        .menu-h a:hover,
+        .menu-h a:active{
+			border: 10px solid;
+			
+        }
+.menu-v{
+    width: 20%;
+    float:left;
+}
+    .menu-v li{
+		display: block;
+		width: 100%;
+    }
+        .menu-v a,
+        .menu-v a:link,
+        .menu-v a:visited{
+			display: block;
+			width: 100%;
+        }
+
+        .menu-v a:hover,
+        .menu-v a:active{
+		   background-color: #586F7F;
+        }
+main{
+    width:80%;
+    float: right;
+}
+footer{
+    clear:both;
+}
